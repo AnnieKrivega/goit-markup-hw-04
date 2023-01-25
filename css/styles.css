@@ -24,6 +24,18 @@ p{
 .link {
     text-decoration: none;
 }
+.soc:hover,
+.soc:focus{
+    background: #404BBF;
+}
+.col:hover,
+.col:focus{
+    border-color: #404BBF;
+}
+.icon:hover,
+.icon:focus{
+    background: #404BBF;
+}
 .pagination:hover,
 .pagination:focus {
     color: #404BBF;
@@ -134,7 +146,7 @@ p{
 
 .section-link {
     background: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
     url(../images/people-office-bg.jpg);
     padding: 188px 0;
 }
@@ -311,6 +323,45 @@ p{
     margin-bottom: 32px;
 }
 .team-soc-icon{
+}
+.customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+.about-customers {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+.container {
+}
+.about-customers-list {
+    display: flex;
+    gap: 24px;
+}
+.about-customers-item {
+    width: calc((100% - 150px) / 6);
+    height: 88px;
+}
+.about-customers-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 16px 32px;
+}
+.about-customers-icon{
 
 }
 .footer {
@@ -361,6 +412,45 @@ p{
     letter-spacing: 0.02em;
     color: #E7E9FC;
     margin-top: 16px;
+}
+.container {
+}
+.card{
+    position: absolute;
+    width: 208px;
+    height: 80px;
+    left: 540px;
+    top: 2988px;
+    margin-left: 120px;
+}
+.about-card{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;  
+}
+.about-card-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.about-card-item {
+    width: 40px;
+    height: 40px;
+}
+.about-card-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 24px;
+}
+.about-card-icon {
 }
 .title {
     font-size: 36px;
