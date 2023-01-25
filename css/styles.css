@@ -236,6 +236,9 @@ p{
     display: flex;
     gap: 24px;
 }
+.photo-wrap{
+    display: block;
+}
 .team {
     min-width: 1440px;
     height: 732px;
@@ -413,6 +416,7 @@ p{
     background: #F4F4FD;
     border: 1px solid transparent;
     padding: 12px 24px;
+    border-radius: 4px;
 }
 .website-btn {
     font-family: 'Roboto';
@@ -428,6 +432,7 @@ p{
     background: #F4F4FD;
     border: 1px solid transparent;
     padding: 12px 24px;
+    border-radius: 4px;
 }
 .app-btn {
     font-family: 'Roboto';
@@ -443,6 +448,7 @@ p{
     background: #F4F4FD;
     border: 1px solid transparent;
     padding: 12px 24px;
+    border-radius: 4px;
 }
 .design-btn {
     font-family: 'Roboto';
@@ -458,6 +464,7 @@ p{
     background: #F4F4FD;
     border: 1px solid transparent;
     padding: 12px 24px;
+    border-radius: 4px;
 }
 .marketing-btn {
     font-family: 'Roboto';
@@ -473,6 +480,7 @@ p{
     background: #F4F4FD;  
     border: 1px solid transparent;
     padding: 12px 24px;
+    border-radius: 4px;
 }
 .works-container{
     padding-top: 72px;
@@ -497,6 +505,7 @@ p{
     border-left: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
+    padding: 32px 16px;
 }
 .about-suptitle {
     font-style: normal;
@@ -505,8 +514,7 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  #2E2F42;  
-    padding: 0 16px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .about-subtitle {
     font-style: normal;
