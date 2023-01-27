@@ -29,12 +29,8 @@ p{
     background: #404BBF;
 }
 .col:hover,
-.col:focus{
-    border-color: #404BBF;
-}
-.icon:hover,
-.icon:focus{
-
+.col:focus {
+    background: #404BBF;
 }
 .pagination:hover,
 .pagination:focus {
@@ -54,6 +50,10 @@ p{
 .filters:hover,
 .filter:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.ground-color:hover,
+.ground-color:focus{
+    background: #31D0AA;
 }
 .filter{
     cursor: pointer;
@@ -390,19 +390,20 @@ p{
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    padding: 16px 32px;
 }
 .about-customers-icon{
 
 }
 .footer {
     background: #2E2F42;
-    min-width: 1440px;
-    height: 310px;
     left: 0px;
     top: 2280px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.about-footeer{
+    display: flex;
+    align-items: baseline;
 }
 .footer-container{
     width: 1158px;
@@ -444,14 +445,7 @@ p{
     color: #E7E9FC;
     margin-top: 16px;
 }
-.container {
-}
 .card{
-    position: absolute;
-    width: 208px;
-    height: 80px;
-    left: 540px;
-    top: 2988px;
     margin-left: 120px;
 }
 .about-card{
@@ -462,12 +456,10 @@ p{
     line-height: 1,5;
     letter-spacing: 0.02em;
     color: #FFFFFF; 
-    padding-top: 100px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .about-card-list {
     display: flex;
-    justify-content: center;
     gap: 16px;
 }
 .about-card-item {
@@ -481,7 +473,7 @@ p{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    margin-top: 24px;
+    background: rgba(255, 255, 255, 0.1);
 }
 .about-card-icon {
 }
