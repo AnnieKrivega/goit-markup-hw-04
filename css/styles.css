@@ -28,13 +28,12 @@ p{
 .soc:focus{
     background: #404BBF;
 }
-.col:hover,
-.col:focus {
-    border: 1px solid #404BBF;
+.col:hover .about-customers-icon,
+.col:focus .about-customers-icon {
+    fill: #404BBF;
 }
 .cust:hover,
 .cust:focus{
-    fill: #404BBF;
 }
 .pagination:hover,
 .pagination:focus {
